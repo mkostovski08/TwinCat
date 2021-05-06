@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.17">
+  <GlobalTextList Name="GlobalTextList" Id="{ac411746-36e7-436d-bc4e-fc204b4919b7}">
+    <XmlArchive>
+      <Data>
+        <o xml:space="preserve" t="GlobalTextListObject">
+          <l n="TextList" t="ArrayList" cet="TextListRow">
+            <o>
+              <v n="TextID">"140"</v>
+              <v n="TextDefault">"%"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"414"</v>
+              <v n="TextDefault">"%3.2f"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"415"</v>
+              <v n="TextDefault">"%3.2f %%"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"395"</v>
+              <v n="TextDefault">"%3.2f mm"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"623"</v>
+              <v n="TextDefault">"%d s"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"55"</v>
+              <v n="TextDefault">"%s"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"498"</v>
+              <v n="TextDefault">"Acceleration"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"911"</v>
+              <v n="TextDefault">"Acknowledge"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Acknowledge</v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"379"</v>
+              <v n="TextDefault">"Act"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"825"</v>
+              <v n="TextDefault">"Actual Level"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Actual Level</v>
+                <v>Моментално Ниво</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"210"</v>
+              <v n="TextDefault">"Actual position:"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Actual Position</v>
+                <v>Моментална Позиција</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"302"</v>
+              <v n="TextDefault">"Actual Presssure"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Actual Pressure</v>
+                <v>Моментален Притисок</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"769"</v>
+              <v n="TextDefault">"Actual set point:"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Actual Set Point</v>
+                <v>Моментален Сет Поинт</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"537"</v>
+              <v n="TextDefault">"Actual speed:"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Actual Speed</v>
+                <v>Моментална брзина</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"524"</v>
+              <v n="TextDefault">"Actual Temprature"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Actual Temperature</v>
+                <v>Моментална Температура</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"208"</v>
+              <v n="TextDefault">"Admin"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"311"</v>
+              <v n="TextDefault">"Alarm Delay Timer"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Alacm Delay Timer</v>
+                <v>Време на одложување</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"760"</v>
+              <v n="TextDefault">"Alarm High Limit"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Alarm High Limit</v>
+                <v>Аларм за високо ново</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"984"</v>
+              <v n="TextDefault">"Alarm Low Limit"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Alarm Low Limit</v>
+                <v>Аларм за ниско ниво</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"756"</v>
+              <v n="TextDefault">"AUTO"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Auto</v>
+                <v>Автоматски режим</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"23"</v>
+              <v n="TextDefault">"Auto"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"642"</v>
+              <v n="TextDefault">"Auto position set point"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"375"</v>
+              <v n="TextDefault">"Auto set point:"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Auto Set Point</v>
+                <v>Автоматски Сет Поинт</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"796"</v>
+              <v n="TextDefault">"BACKWARD"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Backward</v>
+                <v>Наназад</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"891"</v>
+              <v n="TextDefault">"Cancel"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Cancel</v>
+                <v>Исклучи</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"215"</v>
+              <v n="TextDefault">"CLEAR FAULT"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Clear Fault</v>
+                <v>Избриши Грешки</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"442"</v>
+              <v n="TextDefault">"CLOSE"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Close</v>
+                <v>Исклучи</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"975"</v>
+              <v n="TextDefault">"Enable"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Enable</v>
+                <v>Овозможи</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"144"</v>
+              <v n="TextDefault">"Enable Alarm"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Enable Alarm</v>
+                <v>Овозможи Аларм</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"277"</v>
+              <v n="TextDefault">"FORWARD"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Forward</v>
+                <v>Напред</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"172"</v>
+              <v n="TextDefault">"GO   TO   POSITION"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Go To Position</v>
+                <v>Оди на Позиција</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"515"</v>
+              <v n="TextDefault">"Go To Position"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"928"</v>
+              <v n="TextDefault">"HOME"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Home</v>
+                <v>Хомирај</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"394"</v>
+              <v n="TextDefault">"Home"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"80"</v>
+              <v n="TextDefault">"Jerk"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"247"</v>
+              <v n="TextDefault">"JOG   BACKWARD"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Jog Backward</v>
+                <v>Џогирај Назад</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"511"</v>
+              <v n="TextDefault">"JOG  FORWARD"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Jog Forward</v>
+                <v>Џогирај Напред</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"800"</v>
+              <v n="TextDefault">"Jog Backward"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"437"</v>
+              <v n="TextDefault">"Jog Forward"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"360"</v>
+              <v n="TextDefault">"Man"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"444"</v>
+              <v n="TextDefault">"MANUAL"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Manual</v>
+                <v>Рачен Режим</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"916"</v>
+              <v n="TextDefault">"Manual"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"418"</v>
+              <v n="TextDefault">"Manual position set point:"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"526"</v>
+              <v n="TextDefault">"Manual set point:"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Manual Set Point</v>
+                <v>Рачен Сет Поинт</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"881"</v>
+              <v n="TextDefault">"None"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"449"</v>
+              <v n="TextDefault">"OPEN"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Open</v>
+                <v>Отвори</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"598"</v>
+              <v n="TextDefault">"Operator"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"443"</v>
+              <v n="TextDefault">"Position"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"349"</v>
+              <v n="TextDefault">"Reverse"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Reverse</v>
+                <v>Назад</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"899"</v>
+              <v n="TextDefault">"REVERSE"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>reverse</v>
+                <v>Назад</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"416"</v>
+              <v n="TextDefault">"SCA_04_0100"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"667"</v>
+              <v n="TextDefault">"SEMI AUTO"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"403"</v>
+              <v n="TextDefault">"Service"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"775"</v>
+              <v n="TextDefault">"Servo_04_0100"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"472"</v>
+              <v n="TextDefault">"Set Point:"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Set Point</v>
+                <v>Сет Поинт</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"635"</v>
+              <v n="TextDefault">"Speed"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"527"</v>
+              <v n="TextDefault">"START"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Start</v>
+                <v>Старт</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"562"</v>
+              <v n="TextDefault">"State"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"127"</v>
+              <v n="TextDefault">"STOP"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Stop</v>
+                <v>Стоп</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"424"</v>
+              <v n="TextDefault">"Warning High Limit"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Warning Hight Limit</v>
+                <v>Предупредување за Високо Ниво</v>
+              </l>
+            </o>
+            <o>
+              <v n="TextID">"417"</v>
+              <v n="TextDefault">"Warning Low Limit"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v>Warning Low Limit</v>
+                <v>Предупредување за Ниско Ниво</v>
+              </l>
+            </o>
+          </l>
+          <l n="Languages" t="ArrayList" cet="String">
+            <v>English</v>
+            <v>Македонски</v>
+          </l>
+          <v n="GuidInit">{3d5da4f8-d59e-45dd-b78d-20c261c787b8}</v>
+          <v n="GuidReInit">{36f0e252-57e9-446a-9cd4-8e55527fd5ba}</v>
+          <v n="GuidExitX">{a3bfd4cc-2db8-44c6-9e24-a7fd89bd9270}</v>
+        </o>
+      </Data>
+      <TypeList>
+        <Type n="ArrayList">System.Collections.ArrayList</Type>
+        <Type n="GlobalTextListObject">{63784cbb-9ba0-45e6-9d69-babf3f040511}</Type>
+        <Type n="Guid">System.Guid</Type>
+        <Type n="String">System.String</Type>
+        <Type n="TextListRow">{53da1be7-ad25-47c3-b0e8-e26286dad2e0}</Type>
+      </TypeList>
+    </XmlArchive>
+  </GlobalTextList>
+</TcPlcObject>

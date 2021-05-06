@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.17">
+  <DUT Name="dutInterlock" Id="{cc513cdb-1616-4b38-b69e-b0f9e21a2845}">
+    <Declaration><![CDATA[TYPE dutInterlock :
+STRUCT
+	Intrlck_1 : BOOL;
+	strIntrlck_1 : STRING;
+	Intrlck_2 : BOOL;
+	strIntrlck_2 : STRING;
+	Intrlck_3 : BOOL;
+	strIntrlck_3 : STRING;
+	Intrlck_4 : BOOL;
+	strIntrlck_4 : STRING;
+	Intrlck_5 : BOOL;
+	strIntrlck_5 : STRING;
+	Intrlck_6 : BOOL;
+	strIntrlck_6 : STRING;
+	Intrlck_7 : BOOL;
+	strIntrlck_7 : STRING;
+	Intrlck_8 : BOOL;
+	strIntrlck_8 : STRING;
+	Intrlck_9 : BOOL;
+	strIntrlck_9 : STRING;
+	Intrlck_10 : BOOL;
+	strIntrlck_10 : STRING;
+	
+	Intrlck_OK : BOOK;
+	
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

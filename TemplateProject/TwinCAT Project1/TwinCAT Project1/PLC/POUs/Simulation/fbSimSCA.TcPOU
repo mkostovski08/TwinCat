@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.17">
+  <POU Name="fbSimSCA" Id="{635c4bfd-7d02-4ee1-90b4-bcd6764906c4}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK fbSimSCA
+VAR_INPUT
+	CommandSpeedRaw : DINT;
+	CommandDir : BOOL; // 1 = Forward, 0 = Backward
+END_VAR
+VAR_OUTPUT
+	ActualSpeedRaw : DINT;
+	ActualDir : BOOL; // 1 = Forward, 0 = Backward
+END_VAR
+VAR
+	Acceleration : DINT := 10; // defines the spead change per PLC cycle time
+	CommandSpeed: DINT;
+	ActualSpeed: DINT := 0;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF CommandDir THEN
+	CommandSpeed := CommandSpeedRaw;
+ELSE
+	CommandSpeed := -CommandSpeedRaw;
+END_IF
+
+IF ActualSpeed > 0 THEN
+	ActualDir := 1;
+	ActualSpeedRaw := ActualSpeed;
+ELSE
+	ActualDir := 0;
+	ActualSpeedRaw := -ActualSpeed;
+END_IF
+
+IF ActualSpeed < CommandSpeed - Acceleration THEN
+	ActualSpeed := ActualSpeed + Acceleration;
+END_IF
+
+IF ActualSpeed > CommandSpeed + Acceleration THEN
+	ActualSpeed := ActualSpeed - Acceleration;
+END_IF
+
+IF ActualSpeed >= CommandSpeed - Acceleration AND ActualSpeed <= CommandSpeed + Acceleration THEN
+	ActualSpeed := CommandSpeed;
+END_IF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></ST>
+    </Implementation>
+    <LineIds Name="fbSimSCA">
+      <LineId Id="9" Count="0" />
+      <LineId Id="34" Count="0" />
+      <LineId Id="36" Count="0" />
+      <LineId Id="38" Count="0" />
+      <LineId Id="35" Count="0" />
+      <LineId Id="41" Count="0" />
+      <LineId Id="40" Count="0" />
+      <LineId Id="42" Count="0" />
+      <LineId Id="80" Count="0" />
+      <LineId Id="44" Count="0" />
+      <LineId Id="46" Count="0" />
+      <LineId Id="81" Count="0" />
+      <LineId Id="43" Count="0" />
+      <LineId Id="48" Count="0" />
+      <LineId Id="47" Count="0" />
+      <LineId Id="51" Count="0" />
+      <LineId Id="76" Count="1" />
+      <LineId Id="52" Count="0" />
+      <LineId Id="72" Count="0" />
+      <LineId Id="78" Count="1" />
+      <LineId Id="74" Count="1" />
+      <LineId Id="73" Count="0" />
+      <LineId Id="57" Count="14" />
+      <LineId Id="56" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
